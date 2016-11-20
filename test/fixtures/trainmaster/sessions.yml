@@ -1,0 +1,36 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one:
+  uuid: "1"
+  user_uuid: "1"
+  token: <%= JWT.encode({
+               session_uuid: "1",
+               user_uuid: "1",
+               role: Trainmaster::Roles::USER,
+               exp: (Time.now.to_i + 14 * 3600)
+             }, "secret", 'HS256') %>
+  secret: secret
+two:
+  uuid: "2"
+  user_uuid: "2"
+  token: <%= JWT.encode({
+               session_uuid: "2",
+               user_uuid: "2",
+               role: Trainmaster::Roles::USER,
+               exp: (Time.now.to_i + 14 * 3600)
+             }, "secret", 'HS256') %>
+  secret: secret
+admin_one:
+  uuid: "session_admin_one"
+  user_uuid: "admin_one"
+  token: <%= JWT.encode({
+               session_uuid: "session_admin_one",
+               user_uuid: "admin_one",
+               role: Trainmaster::Roles::ADMIN,
+               exp: (Time.now.to_i + 14 * 3600)
+             }, "secret", "HS256") %>
+  secret: secret

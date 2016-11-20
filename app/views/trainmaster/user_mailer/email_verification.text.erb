@@ -1,0 +1,13 @@
+Dear <%= @user.username %>,
+
+Please confirm your account with trainmaster by making a PATCH request
+on the current user with a provided verification token. For example,
+
+http PATCH /users/current token=<%= @user.verification_token %> verified=true
+
+will confirm the account. Here is the verification token:
+
+<%= @user.verification_token %>
+
+Thank you for using trainmaster,
+trainmaster
