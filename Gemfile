@@ -17,8 +17,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'coveralls', require: false
 gem 'jwt', '~> 1.5.4'
 gem 'paranoia', '~> 2.0'
-# gem 'repia', '~> 0.2.0'
-gem 'repia', path: '/home/rockalizer/Projects/Personal/repia'
+gem 'repia', '~> 0.3.0'
 gem 'simplecov', :require => false, :group => :test
 gem 'uuidtools', '~> 2.1.5'
 gem 'hashie', '~> 3.4.4'
