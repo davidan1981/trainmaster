@@ -6,10 +6,10 @@
 [![Gem Version](https://badge.fury.io/rb/trainmaster.svg)](https://badge.fury.io/rb/trainmaster)
 
 trainmaster is a Rails engine that provides
-a [JWT](https://jwt.io/)-based session management platform for Rails apps.
-This plugin is suitable for developing RESTful APIs that do not require
-an enterprise identity service. No cookies or non-unique IDs involved in
-this project.
+a [JWT](https://jwt.io/)-based session management platform for API
+development. This plugin is suitable for developing RESTful APIs that do
+not require an enterprise identity service. No cookies or non-unique IDs
+involved in this project.
 
 It is a continuation of
 [rails-identity](https://github.com/davidan1981/rails-identity) which has

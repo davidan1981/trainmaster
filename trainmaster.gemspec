@@ -10,11 +10,11 @@ Gem::Specification.new do |s|
   s.authors     = ["David An"]
   s.email       = ["davidan1981@gmail.com"]
   s.homepage    = "https://github.com/davidan1981/trainmaster"
-  s.summary     = "trainmaster is a Rails engine that provides a simple JWT-based session management service."
+  s.summary     = "trainmaster is a Rails engine that provides a simple JWT-based session management platform for API development."
   s.description = <<-EOS
-trainmaster is a very simple Rails engine that provides JWT-based session
-management service for Rails apps. This plugin is suitable for pure RESTful
-API that does not require an intricate identity service. There are no
+trainmaster is a Rails engine that provides JWT-based session management
+platform for API development. This plugin is suitable for developing RESTful
+APIs that do not require an enterprise identity service. There are no
 cookies or non-unique IDs involved in this project.
 EOS
   s.license     = "MIT"
