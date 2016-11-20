@@ -22,3 +22,4 @@ gem 'simplecov', :require => false, :group => :test
 gem 'uuidtools', '~> 2.1.5'
 gem 'hashie', '~> 3.4.4'
 gem 'omniauth', '~> 1.3.1'
+gem 'rails-controller-testing'

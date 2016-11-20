@@ -34,5 +34,4 @@ EOS
   s.add_dependency "hashie", '~> 3.4.4'
 
   s.add_development_dependency "sqlite3"
-  s.add_development_dependency "rails-controller-testing"
 end
