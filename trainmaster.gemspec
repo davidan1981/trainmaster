@@ -30,6 +30,9 @@ EOS
   s.add_dependency "simplecov"
   s.add_dependency "coveralls"
   s.add_dependency "repia", "~> 0.3.0"
+  s.add_dependency "omniauth", '~> 1.3.1'
+  s.add_dependency "hashie", '~> 3.4.4'
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "rails-controller-testing"
 end
